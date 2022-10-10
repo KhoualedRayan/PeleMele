@@ -21,6 +21,7 @@ public class ContactAcitivity extends AppCompatActivity {
         setContentView(R.layout.activity_contact_acitivity);
         ListView listView = findViewById(R.id.listView);
         ArrayList<Contact> contacts = new ArrayList<>();
+
         Cursor phones = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null,null,null,null);
         while (phones.moveToNext()){
             String name =phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
