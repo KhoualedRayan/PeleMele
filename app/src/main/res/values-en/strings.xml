@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PeleMele</string>
+    <string name="météo">Meteo</string>
+    <string name="position">Position</string>
+    <string name="bonjour">Hello</string>
+    <string name="photo">Picture</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="quitter">Quit</string>
+    <string name="chronometre">chronometer</string>
+    <string name="suspendre">Suspend</string>
+    <string name="sensor">Sensor</string>
+    <string name="Select_Activity">Select_activity</string>
+    <string name="todo">TODo</string>
+    <string name="dernière_photo">Last_Picture</string>
+    <string name="contact">Contact</string>
+</resources>

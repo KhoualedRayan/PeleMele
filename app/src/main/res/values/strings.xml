@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PeleMele</string>
+    <string name="bonjour">Bonjour</string>
+    <string name="photo">Photo</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="quitter">Quitter</string>
+    <string name="chronometre">Chronometre</string>
+    <string name="suspendre">Suspendre</string>
+    <string name="météo">Meteo</string>
+    <string name="position">Position</string>
+    <string name="sensor">Sensor</string>
+    <string name="Select_Activity">Select_activity</string>
+    <string name="todo">TODO</string>
+    <string name="dernière_photo">dernière_photo</string>
+    <string name="contact">contact</string>
+</resources>
