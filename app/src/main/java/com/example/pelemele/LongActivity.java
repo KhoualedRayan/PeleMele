@@ -24,15 +24,20 @@ public class LongActivity extends AppCompatActivity {
 
 
     public void activityOnClick(View view) {
-        Runnable runnable = new Runnable() {
+         Runnable runnable = new Runnable() {
             @Override
             public void run() {
                 Timer time =new Timer();
                 TimerTask task = new TimerTask() {
                     @Override
                     public void run() {
-                        Log.i("LongActivity","Fin de tache");
-                        pb.setVisibility(View.INVISIBLE);
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Log.i("LongActivity","Fin de tache");
+                                pb.setVisibility(View.INVISIBLE);
+                            }
+                        });
                     }
                 };
                 time.schedule(task,5000);
